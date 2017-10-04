@@ -1,0 +1,35 @@
+body
+{
+	line-height: 1.6em;
+}
+
+#stats
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	width: 400px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#stats th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	background: #8c82ff;
+	border-top: 4px solid #8c82ff;
+	border-bottom: 1px solid #fff;
+	color: #330a56;
+}
+#stats tbody tr {
+  background-attachment:fixed;
+}
+#stats tr
+{
+	background: #f2e8ff; 
+	border-bottom: 1px solid #fff;
+}
+#stats td
+{
+	padding: 8px;
+}

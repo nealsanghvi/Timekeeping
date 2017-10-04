@@ -1,0 +1,20 @@
+{
+  "name": "Timekeeper",
+  "version": "1",
+  "description": "Keeps track of how much time you spend on various web sites.",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["config.js", "sites.js", "tracker.js", "background.js"]
+  },
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "permissions": [
+    "alarms",
+    "idle",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Time Tracker",
+    "default_popup": "popup.html"
+  }
+}
